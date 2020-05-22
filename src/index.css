@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tlnhead1{
+	width: 400px;
+	display: inline-block;
+	padding: 0px 10px;
+	color:cyan;
+	background-color:black;
+}
+.tlnhead2{
+	width: 100px;
+	display: inline-block;
+	padding: 0px 10px;
+	color:cyan;
+	background-color:black;
+}
+.tlnhead3{
+	width: 100px;
+	display: inline-block;
+	padding: 0px 10px;
+	color:cyan;
+	background-color:black;
+}
+.tlnhead4{
+	width: 100px;
+	display: inline-block;
+	padding: 0px 10px;
+	color:cyan;
+	background-color:black;
+}
+.tlnhead5{
+	width: 100px;
+	display: inline-block;
+	padding: 0px 10px;
+	color:cyan;
+	background-color:black;
+}
+.tlnhead6{
+	width: 100px;
+	display: inline-block;
+	padding: 0px 10px;
+	color:cyan;
+	background-color:black;
+}
+.tlnhead7{
+	width: 100px;
+	display: inline-block;
+	padding: 0px 10px;
+	color:cyan;
+	background-color:black;
+}
+.tlnrow1{
+	width: 400px;
+	display: inline-block;
+	border: 2px solid white;
+	padding: 0px 10px;
+	color:blue;
+	background-color:cyan;
+}
+.tlnrow2{
+	width: 100px;
+	border: 2px solid white;
+	padding: 0px 10px;
+	color:black;
+	background-color:cyan;
+}
+.tlnrow3{
+	width: 100px;
+	border: 2px solid white;
+	padding: 0px 10px;
+	color:black;
+	background-color:cyan;
+}
+.tlnrow4{
+	width: 100px;
+	border: 2px solid white;
+	padding: 0px 10px;
+	color:blue;
+	background-color:cyan;
+}
+.tlnrow5{
+	width: 100px;
+	border: 2px solid white;
+	padding: 0px 10px;
+	color:black;
+	background-color:cyan;
+}
+.tlnrow6{
+	width: 100px;
+	border: 2px solid white;
+	padding: 0px 10px;
+	color:black;
+	background-color:cyan;
+}
+.tlnrow7{
+	width: 100px;
+	border: 2px solid white;
+	padding: 0px 10px;
+	color:black;
+	background-color:cyan;
+}
+

@@ -10,10 +10,16 @@ interface DProps {
 }
 
 const DeviceReading:React.FC<DProps> = (props:DProps) => {
-		
+
+  var list = new Array();
+  props.deviceList.forEach( element => { 
+		   var splt = element.split(" ");
+		   list.push( splt[1]);
+  });		
   return (
    
-        <DPM drf={props.deviceList}>
+        
+        <DPM drf={list}>
         {/* This is a comment inside JSX */}
         {/* The DPMContext.Consumer provides the data back to us */}
             <DPMContext.Consumer>
@@ -24,8 +30,11 @@ const DeviceReading:React.FC<DProps> = (props:DProps) => {
                              const localContext = dpmContext as RequestMap;
 			                 //Generate list of device rows							 
 	                         const mylist = props.deviceList.map(entry => {
-                                   if (localContext && localContext[entry] && localContext[entry].info) {
-	                                   props.datamap.set( entry, localContext[entry].data.data.toString() );
+								   var split = entry.split(" ");
+								   var key = split[0];
+								   var device = split[1];
+                                   if (localContext && localContext[device] && localContext[device].info) {
+	                                   props.datamap.set( key, localContext[device].data.data.toString() );
 								   }
                              });
 	
